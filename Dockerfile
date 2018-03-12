@@ -5,7 +5,7 @@ From ubutu
 MAINTAINER docker_user  docker_user@mail.com
 
 #镜像的操作指令
-apt/sourcelist.list
+#apt/sourcelist.list
 
 RUN apt-get update && apt-get install -y ngnix 
 RUN echo "\ndaemon off;">>/etc/ngnix/nignix.conf
